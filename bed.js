@@ -34,7 +34,7 @@ function draw() {
     image(bed, 0, 0, 640, 420);
     
     if(status_be !=""){
-        for(i=0; i< objects.length; i++){
+        for(i=0; i< object.length; i++){
             document.getElementById("status_be").innerHTML="Status= Object Detected";
             fill("#FF0000");
             percent=floor(objects[i].confidence*100);
